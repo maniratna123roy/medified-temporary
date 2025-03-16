@@ -1,12 +1,12 @@
 // Replace with your Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB821BKA-ewVHTtfNU4ru1395OXh8tRCz8",
-    authDomain: "medq-31478.firebaseapp.com",
-    projectId: "medq-31478",
-    storageBucket: "medq-31478.appspot.com",
-    messagingSenderId: "728089087143",
-    appId: "1:728089087143:web:1b392cc793d2276e6cdf82",
-    measurementId: "G-CYDBRTC0QM"
+    apiKey: "AIzaSyCeXcqOPfdlT7edLCuL1_4gm-U5BanBywU",
+  authDomain: "medified-31a2c.firebaseapp.com",
+  projectId: "medified-31a2c",
+  storageBucket: "medified-31a2c.firebasestorage.app",
+  messagingSenderId: "1014446276148",
+  appId: "1:1014446276148:web:412a472f59c25440125461",
+  measurementId: "G-92DS2E7FDM"
   };
 
 // Initialize Firebase

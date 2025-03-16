@@ -2,12 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebas
 import { getAuth,GoogleAuthProvider,signInWithPopup } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAUOrUATG6PdGzkJjc9Ve5FKydGb2d2GsM",
-  authDomain: "lifesync-hub.firebaseapp.com",
-  projectId: "lifesync-hub",
-  storageBucket: "lifesync-hub.appspot.com",
-  messagingSenderId: "958981708990",
-  appId: "1:958981708990:web:7734d5a76968a2144cd2ef"
+  apiKey: "AIzaSyCeXcqOPfdlT7edLCuL1_4gm-U5BanBywU",
+  authDomain: "medified-31a2c.firebaseapp.com",
+  projectId: "medified-31a2c",
+  storageBucket: "medified-31a2c.firebasestorage.app",
+  messagingSenderId: "1014446276148",
+  appId: "1:1014446276148:web:412a472f59c25440125461",
+  measurementId: "G-92DS2E7FDM"
 };
 
 const app = initializeApp(firebaseConfig);

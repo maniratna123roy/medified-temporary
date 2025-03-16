@@ -1,13 +1,12 @@
 // Replace with your Firebase project configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB4Qc2jo5iAOEkQE7_8ZCjNMohUSsW-wkg",
-    authDomain: "lifesync-hub-c2e7a.firebaseapp.com",
-    databaseURL: "https://lifesync-hub-c2e7a-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "lifesync-hub-c2e7a",
-    storageBucket: "lifesync-hub-c2e7a.appspot.com",
-    messagingSenderId: "795814633649",
-    appId: "1:795814633649:web:de354408dee99872c8c290",
-    measurementId: "G-2FHJ730MV3"
+    apiKey: "AIzaSyCeXcqOPfdlT7edLCuL1_4gm-U5BanBywU",
+    authDomain: "medified-31a2c.firebaseapp.com",
+    projectId: "medified-31a2c",
+    storageBucket: "medified-31a2c.firebasestorage.app",
+    messagingSenderId: "1014446276148",
+    appId: "1:1014446276148:web:412a472f59c25440125461",
+    measurementId: "G-92DS2E7FDM"
 };
 
 // Initialize Firebase
