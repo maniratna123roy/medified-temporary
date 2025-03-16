@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patients List</title>
+    <script src="doctor.js" defer type="module"></script>
+    <link rel="stylesheet" href="Doctor.css">
+</head>
+<body>
+    <div class="bigboy">
+    <div class="smallboy">
+    <div class="logo-container">
+        <img id="userProfilePicture" alt="Logo">
+        <div class="h2 log"><p>Logged in as</p> </div>
+    <h2 class="h2" id="userName"></h2>
+    <h2 class="h2" id="userEmail"></h2>
+    </div>
+    
+    
+    
+    <div id="app">
+        <h2>Patients List</h2>
+        <p>Total Patients: <span id="patientCount">0</span></p>
+        <ul id="patientList"></ul>
+    </div>
+    <div class="btnnn" >
+        <button class="btnnnn"><a href="https://video-call-fawn-delta.vercel.app/">Connect with the Patient</a></button>
+    </div>
+</div>
+</div>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+    <script src="doctorScript.js"></script>
+</body>
+</html>

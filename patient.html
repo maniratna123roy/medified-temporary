@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Appointment</title>
+    <script src="patient.js" defer type="module"></script>
+    <link rel="stylesheet" href="patient.css">
+</head>
+<body>
+    <div class="bigboy">
+        <div class="smallboy">
+            <div class="logo-container">
+                <img id="userProfilePicture" alt="Logo">
+                <div class="h2 log"><p>Logged in as</p> </div>
+            <h2 class="h2" id="userName"></h2>
+            <h2 class="h2" id="userEmail"></h2>
+            </div>
+    <div id="app">
+        <h2>Patient Appointment</h2>
+        <form id="appointmentForm">
+            <label for="patientName">Your Name:</label>
+            <input type="text" id="patientName" required>
+            <label for="appointmentDate">Appointment Date:</label>
+            <input type="date" id="appointmentDate" required>
+            <button type="submit">Submit Appointment</button>
+        </form>
+    </div>
+    <div class="btnnn" >
+        <button class="btnnnn"><a href="https://video-call-fawn-delta.vercel.app/">Connect with the Doctor</a></button>
+    </div>
+    
+    </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>       
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+    
+    <script src="patientScript.js"></script>
+</body>
+</html>

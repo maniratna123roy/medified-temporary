@@ -1,182 +1,297 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medified - Your Health Partner</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js"></script>
+	<title>LifeSync Hub</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="google.js" defer type="module"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.wow:first-child {
+			visibility: hidden;
+		}
+	</style>
+
 </head>
+
 <body>
-    <nav class="fixed-nav">
-        <div class="container">
-            <div class="nav-content">
-                <div class="logo">
-                    <img class="logo-img" src="https://ai-public.creatie.ai/gen_page/logo_placeholder.png" alt="Medified">
-                </div>
-                <div class="nav-links">
-                    <a href="#" class="nav-link">Symptoms</a>
-                    <a href="#" class="nav-link">Consultancy</a>
-                    <a href="#" class="nav-link">Video Chat</a>
-                </div>
-                <div class="auth-buttons">
-                    <button class="btn btn-login">Login</button>
-                    <button class="btn btn-signup">Sign Up</button>
-                </div>
-            </div>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="">LifeSync <b style="color:#aa390f;">Hub</b></a>
+			</div>
+			<a href="javascript:void(0)" class="ham-burger">
+				<span></span>
+				<span></span>
+			</a>
+			<div class="nav">
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="./ML/ML.html">Diagnosis</a></li>
+					<li><a href="department.html"> Explore Departments</a></li>
+					<li><a href="medical history.html">Medical History</a></li>
+					<li><a href="rating.html">Doctor Ratings and Reviews</a></li>
+					<li><a href="health-blog.html">Explore Our Health Blogs</a></li>
+
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<section class="home wow flash" id="home">
+		<div class="containerrr">
+			<h1 class="wow slideInLeft" data-wow-delay="1s">It's <span>time to</span> get your disease sorted.</h1>
+			<div class="extra"><h1 class="wow slideInRight" data-wow-delay="1s">We are ready to make <span>you fit</span></h1></div>
+		</div>
+
+		<a href="#about" class="go-down">
+			<i class="fa fa-angle-down" aria-hidden="true"></i>
+		</a>
+
+		<div class="containerr">
+			<div class="buttonss">
+			  <a href="#" class="btnn" id="btnn">Sign In for Doctors</a>
+			  <a href="#" class="btnn" id="patient">Sign In for Patients</a>
+			</div>
+		  </div>
+
+
+	</section>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="content">
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="img">
+							<img src="public/Images/about1.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Free Diagnosis</h4>
+							<p>Yes,You heard it right. No Diagnosis Fees. Experience the freedom of healthcare with our commitment to providing free diagnosis services. Breaking away from traditional fee structures, our organization advocates for affordable healthcare accessible to all. Embracing technology, our computerized response personalized diagnosis system ensures accurate and reliable assessments, eliminating the barriers of expensive diagnostics and potential misguidance. We believe in empowering individuals with the knowledge of their health without the burden of diagnosis fees, reinforcing our dedication to making quality healthcare a right, not a privilege.</p>
+							<section style="color: black;">
+								<a href="ML/ML.html" style="text-decoration: none; color: #aa390f; font-size:small;">
+									<h2 style="margin: 0; padding: 5px; cursor: pointer;">
+										Talk to our Free Chatbot Now >>
+									</h2>
+								</a>
+							</section>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="img">
+							<img src="public/images/about2.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>One on one Consultancy</h4>
+							<p>One-on-one consultancy revolutionizes the healthcare experience by seamlessly connecting individuals with top-tier doctors through both online and offline modes. This innovative approach not only prioritizes convenience but also enhances accessibility to expert medical advice.
+
+								The online platform offers a virtual bridge between patients and doctors, eradicating geographical barriers and allowing individuals to consult with renowned medical professionals from the comfort of their homes. This digital connectivity not only saves time but also reduces costs associated with travel and accommodation, making healthcare more accessible to a broader audience.
+								
+								Simultaneously, the offline component ensures a personalized and direct connection between patients and doctors in a traditional clinical setting. This option caters to those who prefer face-to-face interactions, maintaining a human touch in healthcare while providing the expertise of leading medical practitioners.
+								
+								Whether seeking advice for a specific medical concern or looking for a second opinion, one-on-one consultancy strives to streamline the healthcare process, emphasizing efficiency, cost-effectiveness, and individualized care. This holistic approach reflects a commitment to improving the overall patient experience and promoting a healthier and more connected society.</p>
+								<section style="color: black;">
+									<a href="patient.html" style="text-decoration: none; color: #aa390f; font-size:small;">
+										<h2 style="margin: 0; padding: 5px; cursor: pointer;">
+											Book your Appointment Now >>
+										</h2>
+									</a>
+								</section>
+						</div>
+					</div>
+				</div>
+				<div class="box wow bounceInUp">
+					<div class="inner">
+						<div class="img">
+							<img src="public/images/about3.jpg" alt="about" />
+						</div>
+						<div class="text">
+							<h4>Home Remedies</h4>
+							<p>In addition to professional consultations, we empower individuals with practical solutions through our curated collection of home remedies. Recognizing the importance of immediate relief, our platform offers accessible and easy-to-follow remedies for common ailments. In emergencies, these home remedies serve as a valuable resource, providing users with a quick and convenient way to address health concerns. By promoting self-care and empowering individuals with at-home solutions, we contribute to a more proactive and resilient approach to well-being, fostering a sense of confidence and control over one's health in times of need.</p>
+							<section style="color: black;">
+								<a href="ideal.html" style="text-decoration: none; color: #aa390f; font-size:small;">
+									<h2 style="margin: 0; padding: 5px; cursor: pointer;">
+										Learn More >>
+									</h2>
+								</a>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section style="height: 69px; padding: 6px; width: 100%; background-color: #222222; text-align: center;">
+        <a href="ideal.html" style="text-decoration: none; color: white;">
+            <h2 style="margin: 0; padding: 5px; cursor: pointer;">
+                Click here to learn Healthy Nutrition and Exercises – Be Healthy Always!
+            </h2>
+        </a>
+	</section>
+
+	<section class="service" id="service">
+		<div class="container">
+			<div class="content">
+				<div class="text box wow slideInLeft">
+					<h2>Services</h2>
+					<p>This Project is aimed to make Healthcare system in West Bengal More Accesible and much more
+						affordable. Often When We Visit Medical Health Checkup Clinics Or Hospitals We Need To Pay A
+						certain Visiting Fees to get ourself diagnosed and no matter how big or small of a health issue
+						you have this fees is compulsory. Although a significant amount of people who visit medical
+						facilities often suffer from minute to no illness at all. Our Website/App Helps Provide People
+						With free Diagnosis Of Patients Based On their symptoms.Once they are diagnosed we can further
+						narrow down these possibilities by asking user about the specifics of their symptoms such as
+						duration of the symptom or severity and thus provide the user with the most appropriate
+						medication for that illness( as prescribed by certified doctors of the state ) at the same time
+						we will suggest the best doctors available for the user for that particular illness. And at the
+						same time we will also suggest popular home remedies for users who dont want to undergo any
+						expert treatment or in case of emergency. While we appear to provide users the best doctors
+						available for their
+						treatment, we will also provide users with the cost of treatment,the mode of treatment
+						available(online,offline) and the timings of availability for respective doctors.
+					</p>
+					<a class="btn" href="#home">Start Now </a>
+				</div>
+				<div class="accordian box wow slideInRight">
+					<div class="accordian-container active">
+						<div class="head">
+							<h4>Online Consultancy</h4>
+							<span class="fa fa-angle-down"></span>
+						</div>
+						<div class="body">
+							<p>Not every user has time or resources to physically get treated at the health clinics or
+								hospitals. Thus We ensure that such customers are made available with the list of
+								doctors who are willing to go for a online videocall session for detailed diagnosis of
+								the illness of a user.</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Locate offline Doctors</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>We understand that physical treatment is the best treatment. And we take full care of
+								offline treatment services we connect you with the states's best doctors around you to
+								treat you at your affordable economy.</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Get Home Remedies</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>We ensure every user of LifeSync Hub the quality service. So For Users who do not wish to
+								take any medication or paid consultancy we have a portal for users to avail the best
+								home remedies available for the particular illness that too for absolutely free.</p>
+						</div>
+					</div>
+					<div class="accordian-container">
+						<div class="head">
+							<h4>Other Services</h4>
+							<span class="fa fa-angle-up"></span>
+						</div>
+						<div class="body">
+							<p>We provide our customer with a customer-grievance service. One Can always share their
+								opinions and issues with us. We at LifeSync Hub wish to provide the best possible services.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="blog-section";>
+        <br>
+        <div class="container" id="boxx">
+            <h2>Explore Our Health Blog</h2>
+            <p>Discover insightful articles and tips for a healthier lifestyle in our health blog.</p>
+            <a href="health-blog.html" class="btn" style="color: #D44713;">Visit Health Blog</a>
         </div>
-    </nav>
+        <br>
+    </section>
 
-    <main>
-        <section class="hero-section">
-            <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">Your Health, Our Priority</h1>
-                    <p class="hero-subtitle">Connect with top healthcare professionals and get instant medical advice</p>
-                    <div class="search-container">
-                        <input type="text" placeholder="Search symptoms, doctors, or health topics..." class="search-input">
-                        <button class="search-button">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
+	<section class="contact" id="contact">
+		<div class="box text wow slideInRight" style="width:300px; margin:0 auto;">
+			<h2><a style="color:#aa390f;">Get Connected with LifeSync Hub</a></h2>
+			<p class="title-p" style="color:#ffffff;">We Love Connecting With People who would help make LifeSync Hub A
+				Success. We take care of Our customers and are always open to thier suggestions. So feel free to reach
+				us out at our social media handles below.Thank You for using LifeSync Hub and making it a success.</p>
+			<div class="info">
+				<ul style="color:#ffffff;">
+					<li><span class="fa fa-map-marker" style="color:#ffffff;"></span><a
+							style="color:#ffffff;">Newtown</a></li>
+					<li><span class="fa fa-phone"></span>+91 825X293939</li>
+					<li><span class="fa fa-envelope"></span> info@LifeSyncHub.com</li>
+				</ul>
+			</div>
 
-        <section class="features-section">
-            <div class="container">
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-heartbeat"></i>
-                        </div>
-                        <h3 class="feature-title">Symptom Checker</h3>
-                        <p class="feature-desc">Check your symptoms instantly and get preliminary health insights using our AI-powered system.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-user-md"></i>
-                        </div>
-                        <h3 class="feature-title">Expert Consultancy</h3>
-                        <p class="feature-desc">Connect with certified healthcare professionals for personalized medical advice.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <i class="fas fa-video"></i>
-                        </div>
-                        <h3 class="feature-title">Video Consultations</h3>
-                        <p class="feature-desc">Have face-to-face consultations with doctors from the comfort of your home.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+			<div class="copy" style="color:#ffffff;">
+				Powered By &copy; Code Crusaders
+			</div>
+		</div>
+		</div>
+		</div>
+	</section>
 
-        <section class="testimonials-section">
-            <div class="container">
-                <h2 class="section-title">What Our Users Say</h2>
-                <div class="glide">
-                    <div class="glide__track" data-glide-el="track">
-                        <ul class="glide__slides">
-                            <li class="glide__slide">
-                                <div class="testimonial-card">
-                                    <div class="testimonial-header">
-                                        <img src="https://creatie.ai/ai/api/search-image?query=A professional headshot of a middle-aged woman with a warm smile, wearing business attire, against a neutral background. The image should be well-lit and clear, suitable for a testimonial profile picture.&width=64&height=64&orientation=squarish&flag=eab57fdd-ec67-4624-8390-89053cb134b0" class="testimonial-img" alt="User">
-                                        <div>
-                                            <h4 class="testimonial-name">Sarah Johnson</h4>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="testimonial-text">"Medified has been a game-changer for my healthcare needs. The video consultations are so convenient, and the doctors are extremely professional."</p>
-                                </div>
-                            </li>
-                            <li class="glide__slide">
-                                <div class="testimonial-card">
-                                    <div class="testimonial-header">
-                                        <img src="https://creatie.ai/ai/api/search-image?query=A professional headshot of a young man in his early 30s with a confident smile, wearing a casual business shirt, against a neutral background. The image should be well-lit and clear, suitable for a testimonial profile picture.&width=64&height=64&orientation=squarish&flag=3ffcc6bf-90dd-4d05-8506-b2c48627cfaa" class="testimonial-img" alt="User">
-                                        <div>
-                                            <h4 class="testimonial-name">Michael Chen</h4>
-                                            <div class="rating">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star-half-alt"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p class="testimonial-text">"The symptom checker is incredibly accurate, and getting connected to a specialist was quick and easy. Highly recommend!"</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="glide__bullets" data-glide-el="controls[nav]">
-                        <button class="glide__bullet" data-glide-dir="=0"></button>
-                        <button class="glide__bullet" data-glide-dir="=1"></button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
 
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <h4 class="footer-title">About Medified</h4>
-                    <p class="footer-text">Your trusted healthcare partner providing 24/7 online medical services.</p>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-title">Quick Links</h4>
-                    <ul class="footer-links">
-                        <li><a href="#" class="footer-link">Symptoms</a></li>
-                        <li><a href="#" class="footer-link">Consultancy</a></li>
-                        <li><a href="#" class="footer-link">Video Chat</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-title">Contact Us</h4>
-                    <ul class="footer-contact">
-                        <li><i class="fas fa-envelope"></i> support@medified.com</li>
-                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4 class="footer-title">Follow Us</h4>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p class="copyright">&copy; 2024 Medified. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function () {
 
-    <script>
-        new Glide('.glide', {
-            type: 'carousel',
-            perView: 2,
-            gap: 32,
-            breakpoints: {
-                768: {
-                    perView: 1
-                }
-            }
-        }).mount();
-    </script>
+			$(".ham-burger, .nav ul li a").click(function () {
+
+				$(".nav").toggleClass("open")
+
+				$(".ham-burger").toggleClass("active");
+			})
+			$(".accordian-container").click(function () {
+				$(".accordian-container").children(".body").slideUp();
+				$(".accordian-container").removeClass("active")
+				$(".accordian-container").children(".head").children("span").removeClass("fa-angle-down").addClass("fa-angle-up")
+				$(this).children(".body").slideDown();
+				$(this).addClass("active")
+				$(this).children(".head").children("span").removeClass("fa-angle-up").addClass("fa-angle-down")
+			})
+
+			$(".nav ul li a, .go-down").click(function (event) {
+				if (this.hash !== "") {
+
+					event.preventDefault();
+
+					var hash = this.hash;
+
+					$('html,body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function () {
+						window.location.hash = hash;
+					});
+
+					$(".nav ul li a").removeClass("active")
+					$(this).addClass("active")
+				}
+			})
+		})
+
+	</script>
+	<script src="script1.js"></script>
+	<script>
+		wow = new WOW(
+			{
+				animateClass: 'animated',
+				offset: 0,
+			}
+		);
+		wow.init();
+	</script>
 </body>
+
 </html>
